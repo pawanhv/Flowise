@@ -26,7 +26,7 @@ export const CodeEditor = ({
             padding: '10px'
         },
         '.cm-placeholder': {
-            color: 'rgba(120, 120, 120, 0.5)'
+            color: 'rgba(120, 120, 120, 0.0)'
         },
         '.cm-content':
             lang !== 'js'
