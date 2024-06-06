@@ -34,7 +34,9 @@ const LoginDialog = ({ show, dialogProps, onConfirm }) => {
             maxWidth='xs'
             aria-labelledby='alert-dialog-title'
             aria-describedby='alert-dialog-description'
-            sx={{ backgroundColor: 'black' }}
+            BackdropProps={{
+                style: { backgroundColor: 'black', opacity: 0.5 },
+            }}
         >
             <DialogTitle sx={{ fontSize: '1rem' }} id='alert-dialog-title'>
                 {dialogProps.title}
